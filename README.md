@@ -1,2 +1,2 @@
 # mycoin
-Creating own cryptocurrency
+Creating Own Cryptocurrency For Educational Purposes Only
