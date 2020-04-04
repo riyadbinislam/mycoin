@@ -10,6 +10,7 @@ class Block:
         self.data = data                                                    # record of all completed transactions
         self.timestamp = timestamp or time.time()                           # time of transactions
 
+    
     @property
     def calculate_hash(self):                                               # method to calculate hash of block
         block_of_string = "{}{}{}{}{}".format(self.index, self.proof_no, self.prev_hash, self.data, self.timestamp)
