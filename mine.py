@@ -15,6 +15,7 @@ bchain.new_data(
     quantity = 10,
 )
 
+
 last_hash = last_block.calculate_hash
 block = bchain.construct_block(proof_no, last_hash)
 
