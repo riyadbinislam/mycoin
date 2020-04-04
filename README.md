@@ -1,0 +1,2 @@
+# mycoin
+Creating own cryptocurrency
