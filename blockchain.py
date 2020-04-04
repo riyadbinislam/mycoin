@@ -74,7 +74,6 @@ class Blockchain:
             receiver = details_miner,
             quantity = 1,
         )
-
         last_block = self.latest_block
 
         last_proof_no = last_block.proof_no
